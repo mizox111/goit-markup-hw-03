@@ -129,8 +129,7 @@ body {
 .page-title {
     background-color: #2E2F42;
     height: 600;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding: 188px 0 188px
 }
 
 .text-title {
@@ -144,6 +143,7 @@ body {
     height: 120px;
     margin: auto;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .page-title-button {
@@ -154,13 +154,17 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     margin: auto;
     border-radius: 4px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
+    cursor: pointer;
+    border: none;
+    height: 56px;
+    min-width: 169px;
 }
 
 .page-title-button:hover,
