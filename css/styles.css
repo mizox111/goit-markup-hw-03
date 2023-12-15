@@ -54,7 +54,16 @@ body {
     padding-right: auto;
 }
 
+img {
+    display: block;
+}
+
 /* Header */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
+}
 
 .logo {
     color: #4d5ae5;
@@ -67,17 +76,16 @@ body {
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-right: 76px;
 }
 
 .header-container {
     display: flex;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .logo-fragment{
@@ -252,6 +260,11 @@ body {
     letter-spacing: 0.02em;
 }
 
+.background {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 /* Section 4 */
 
 .our-portf-section {
@@ -309,8 +322,13 @@ body {
 
 .footer {
     background: #2E2F42; 
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -319,7 +337,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    width: 264px;
+    max-width: 264px;
     height: 72px;
 }
 
