@@ -81,6 +81,8 @@ img {
 
 .header-container {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-list {
@@ -110,6 +112,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     flex-basis: calc((100% - 80px)/3);
+    padding: 24px 0 24px;
 }
 
 .link:hover, .link:focus {
@@ -118,6 +121,12 @@ img {
 
 .info-company {
     font-style: normal;   
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .info-company-contacts {
@@ -186,9 +195,28 @@ img {
 
 /* Section 2 */
 
+.about-company {
+    padding: 120px 0 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .main-list {
     display: flex;
     gap: 24px;
+}
+
+.main-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .main-theses {
@@ -197,6 +225,7 @@ img {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;    
+    margin-bottom: 8px;
 }
 
 .main-theses-text {
@@ -235,6 +264,7 @@ img {
     text-align: center;
     padding-top: 120px;
     padding-bottom: 72px; 
+    margin-bottom: 72px;
 }
 
 .team-content-style {
@@ -242,6 +272,7 @@ img {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-bottom: 8px;
 }
 
 .developer-name {
