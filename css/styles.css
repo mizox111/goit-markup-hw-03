@@ -254,6 +254,10 @@ img {
     gap: 24px;
 }
 
+.main-item {
+    background-color: #FFFFFF;
+}
+
 .team-title {
     color: #2E2F42;
     text-align: center;
@@ -263,8 +267,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    padding-bottom: 72px; 
-    margin-bottom: 8px;
+    margin-bottom: 72px; 
 }
 
 .team-content-style {
@@ -272,7 +275,6 @@ img {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
- 
 }
 
 .developer-name {
@@ -281,6 +283,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .developer-profession {
