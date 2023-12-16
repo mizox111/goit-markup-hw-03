@@ -365,9 +365,17 @@ img {
     padding-top: 100px;
 }
 
-.footer-link {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .footer-text {
